@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\MEEKHA E SAJI\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.10.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\MEEKHA E SAJI\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\Carousel\de.json" Condition="Exists('$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\Carousel\de.json')">
+      <NuGetPackageId>Blazorise</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\Carousel\de.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\Carousel\en.json" Condition="Exists('$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\Carousel\en.json')">
+      <NuGetPackageId>Blazorise</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\Carousel\en.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\Carousel\es.json" Condition="Exists('$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\Carousel\es.json')">
+      <NuGetPackageId>Blazorise</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\Carousel\es.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\Carousel\fr.json" Condition="Exists('$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\Carousel\fr.json')">
+      <NuGetPackageId>Blazorise</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\Carousel\fr.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\Carousel\hr.json" Condition="Exists('$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\Carousel\hr.json')">
+      <NuGetPackageId>Blazorise</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\Carousel\hr.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\Carousel\it.json" Condition="Exists('$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\Carousel\it.json')">
+      <NuGetPackageId>Blazorise</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\Carousel\it.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\Carousel\nl.json" Condition="Exists('$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\Carousel\nl.json')">
+      <NuGetPackageId>Blazorise</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\Carousel\nl.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\Carousel\pt.json" Condition="Exists('$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\Carousel\pt.json')">
+      <NuGetPackageId>Blazorise</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\Carousel\pt.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\FileEdit\de.json" Condition="Exists('$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\FileEdit\de.json')">
+      <NuGetPackageId>Blazorise</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\FileEdit\de.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\FileEdit\en.json" Condition="Exists('$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\FileEdit\en.json')">
+      <NuGetPackageId>Blazorise</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\FileEdit\en.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\FileEdit\es.json" Condition="Exists('$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\FileEdit\es.json')">
+      <NuGetPackageId>Blazorise</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\FileEdit\es.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\FileEdit\fr.json" Condition="Exists('$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\FileEdit\fr.json')">
+      <NuGetPackageId>Blazorise</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\FileEdit\fr.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\FileEdit\hr.json" Condition="Exists('$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\FileEdit\hr.json')">
+      <NuGetPackageId>Blazorise</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\FileEdit\hr.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\FileEdit\it.json" Condition="Exists('$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\FileEdit\it.json')">
+      <NuGetPackageId>Blazorise</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\FileEdit\it.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\FileEdit\nl.json" Condition="Exists('$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\FileEdit\nl.json')">
+      <NuGetPackageId>Blazorise</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\FileEdit\nl.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\FileEdit\pt.json" Condition="Exists('$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\FileEdit\pt.json')">
+      <NuGetPackageId>Blazorise</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\FileEdit\pt.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\compilerconfig.json" Condition="Exists('$(NuGetPackageRoot)blazorise\0.9.3.10\contentFiles\any\net5.0\compilerconfig.json')">
+      <NuGetPackageId>Blazorise</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>compilerconfig.json</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)blazorise.datagrid\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\DataGrid\de.json" Condition="Exists('$(NuGetPackageRoot)blazorise.datagrid\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\DataGrid\de.json')">
+      <NuGetPackageId>Blazorise.DataGrid</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\DataGrid\de.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)blazorise.datagrid\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\DataGrid\en.json" Condition="Exists('$(NuGetPackageRoot)blazorise.datagrid\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\DataGrid\en.json')">
+      <NuGetPackageId>Blazorise.DataGrid</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\DataGrid\en.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)blazorise.datagrid\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\DataGrid\es.json" Condition="Exists('$(NuGetPackageRoot)blazorise.datagrid\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\DataGrid\es.json')">
+      <NuGetPackageId>Blazorise.DataGrid</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\DataGrid\es.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)blazorise.datagrid\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\DataGrid\fr.json" Condition="Exists('$(NuGetPackageRoot)blazorise.datagrid\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\DataGrid\fr.json')">
+      <NuGetPackageId>Blazorise.DataGrid</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\DataGrid\fr.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)blazorise.datagrid\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\DataGrid\hr.json" Condition="Exists('$(NuGetPackageRoot)blazorise.datagrid\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\DataGrid\hr.json')">
+      <NuGetPackageId>Blazorise.DataGrid</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\DataGrid\hr.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)blazorise.datagrid\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\DataGrid\it.json" Condition="Exists('$(NuGetPackageRoot)blazorise.datagrid\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\DataGrid\it.json')">
+      <NuGetPackageId>Blazorise.DataGrid</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\DataGrid\it.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)blazorise.datagrid\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\DataGrid\nl.json" Condition="Exists('$(NuGetPackageRoot)blazorise.datagrid\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\DataGrid\nl.json')">
+      <NuGetPackageId>Blazorise.DataGrid</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\DataGrid\nl.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)blazorise.datagrid\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\DataGrid\pt.json" Condition="Exists('$(NuGetPackageRoot)blazorise.datagrid\0.9.3.10\contentFiles\any\net5.0\Resources\Localization\DataGrid\pt.json')">
+      <NuGetPackageId>Blazorise.DataGrid</NuGetPackageId>
+      <NuGetPackageVersion>0.9.3.10</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Localization\DataGrid\pt.json</Link>
+    </Content>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)blazorise\0.9.3.10\buildTransitive\Blazorise.props" Condition="Exists('$(NuGetPackageRoot)blazorise\0.9.3.10\buildTransitive\Blazorise.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.datagrid\0.9.3.10\buildTransitive\Blazorise.DataGrid.props" Condition="Exists('$(NuGetPackageRoot)blazorise.datagrid\0.9.3.10\buildTransitive\Blazorise.DataGrid.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.bootstrap\0.9.3.10\buildTransitive\Blazorise.Bootstrap.props" Condition="Exists('$(NuGetPackageRoot)blazorise.bootstrap\0.9.3.10\buildTransitive\Blazorise.Bootstrap.props')" />
+  </ImportGroup>
+</Project>

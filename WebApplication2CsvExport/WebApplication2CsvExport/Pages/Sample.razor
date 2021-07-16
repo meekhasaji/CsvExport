@@ -1,0 +1,60 @@
+﻿@using WebApplication2CsvExport.Models
+@using Blazorise.DataGrid
+@inject IJSRuntime JSRuntime
+@page "/sample"
+<h1>Sample</h1>
+<DataGrid TItem="AuditTrailEntry"
+          Data="@_auditTrailList"
+          Editable="false"
+          Sortable="false"
+          ShowPager="false"
+          ShowPageSizes="false"
+          Striped="true"
+          Bordered="true"
+          Hoverable="true"
+          Responsive="true">
+    <DataGridColumns>
+        <DataGridColumn TItem="AuditTrailEntry" Field="@nameof(AuditTrailEntry.Action)" Caption="Action" Sortable="true" Editable="false">
+        </DataGridColumn>
+        <DataGridColumn TItem="AuditTrailEntry" Field="@nameof(AuditTrailEntry.ModifiedBy)" Caption="Modified by" Sortable="true" Editable="false">
+        </DataGridColumn>
+        <DataGridColumn TItem="AuditTrailEntry" Field="@nameof(AuditTrailEntry.Timestamp)" Caption="Timestamp" Sortable="true" Editable="false">
+        </DataGridColumn>
+        @*<Button Text="CSV"
+            Icon="wrap_text" @onclick="ToCsv2" Style="margin-left:20px;margin-bottom:20px;" data-bind="@_auditTrailList"/>*@
+    </DataGridColumns>
+</DataGrid>
+<button type="button" class="btn btn-primary" @onclick="ToCsv2" data-bind="@_auditTrailList">
+    CSV
+</button>
+<input type="text" id="CSVData" @bind-value="csvData" maxlength="1000" />
+<h3>Click Button to download CSV</h3>
+
+<button @onclick="@(async() => await DownloadFile())">Download</button>
+
+@if (IsDownloadStarted == 1)
+{
+    <p>Downloading...Please wait</p> }
+else if (IsDownloadStarted == 2)
+{
+    <p>Download complete.</p>}
+
+@code { public int IsDownloadStarted { get; set; } = 0;
+
+    protected async Task DownloadFile()
+    {
+        if (await JSRuntime.InvokeAsync<bool>("confirm", $"Do you want to Export?"))
+        {
+            IsDownloadStarted = 1;
+            StateHasChanged();
+
+            var response = csvData;// await _httpClient.GetAsync("/api/export");
+                                   //response.EnsureSuccessStatusCode();
+
+            var fileBytes = System.Text.Encoding.Unicode.GetBytes(response);
+            var fileName = $"AuditDetails{DateTime.Now.ToString("yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture)}.csv";
+            await JSRuntime.InvokeAsync<object>("saveAsFile", fileName, Convert.ToBase64String(fileBytes));
+
+            IsDownloadStarted = 2;
+        }
+    } }
